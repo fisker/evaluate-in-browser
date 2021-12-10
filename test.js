@@ -7,9 +7,6 @@ test('main', async (t) => {
 
   const imageType = await evaluate(async () => {
     const canvas = document.createElement('canvas')
-    canvas.width = 1
-    canvas.height = 1
-
     const blob = await new Promise((resolve) => {
       canvas.toBlob(resolve)
     })
