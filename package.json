@@ -52,7 +52,7 @@
     ]
   },
   "dependencies": {
-    "evaluate-in-browser": "0.0.1"
+    "evaluate-in-browser": "0.0.0"
   },
   "devDependencies": {
     "@fisker/eslint-config": "10.0.3",
